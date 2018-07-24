@@ -8,13 +8,14 @@ class PersonTest < MiniTest::Test
   def setup
 
     @person = Person.new("Craig", 30)
+    @person2 = Person.new("Fraser", 32)
 
   end
 
   def test_get_person_name
     assert_equal("Craig", @person.name)
   end
-  
+
   def test_get_person_age
     assert_equal(30, @person.age)
   end
