@@ -11,5 +11,14 @@ def initialize(route_number, destination)
   @destination = destination
 end
 
+def drive(string)
+  return string
+end
+
+
+
+
+
+
 
 end
